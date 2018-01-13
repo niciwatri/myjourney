@@ -221,8 +221,9 @@ svg path {
 }
 
 
-video {
+a .href {
 	position: relative;
+	width: 100vw;
 }
 
 
