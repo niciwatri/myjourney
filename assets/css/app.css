@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	background-color: black;
 	overflow-x: hidden;
+	font-family: raleway;
 }
 
 .circles img {
@@ -213,17 +214,43 @@ svg path {
 
 
 #Leute {
+	
 
+}
+
+#Leute2 {
+	position: absolute;
 }
 
 #Tram {
 
 }
 
+h2 {
+	position: relative;
+	color: white;
+	font-size: 11rem;
+	margin: 0;
+	line-height: 5rem;
 
-a .href {
+}
+
+h4 {
+	position: relative;
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+	line-height: 2rem;
+}
+
+
+
+
+iframe {
 	position: relative;
 	width: 100vw;
+	margin: 0;
+	border: 0;
 }
 
 
