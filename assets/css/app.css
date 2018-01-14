@@ -24,136 +24,136 @@ div.circles {
 
 #image2 {
 	position: absolute;
-	margin-left: 20rem;
-	margin-top: 20rem;
+	margin-left: 22%;
+	margin-top: 22%;
 }
 
 #image3 {
 	position: absolute;
-	margin-left: 30rem;
-	margin-top: 2rem;
+	margin-left: 34%;
+	margin-top: 2%;
 }
 
 #image4 {
 	position: absolute;
-	margin-left: 40rem;
-	margin-top: 20rem;
+	margin-left: 45%;
+	margin-top: 23%;
 }
 
 #image5 {
 	position: absolute;
-	margin-left: 80rem;
-	margin-top: 28rem;
+	margin-left: 80%;
+	margin-top: 28%;
 }
 
 #image6 {
 	position: absolute;
-	margin-left: 80rem;
-	margin-top: 5rem;
+	margin-left: 80%;
+	margin-top: 5%;
 }
 
 #image7 {
 	position: absolute;
-	margin-left: 0rem;
-	margin-top: 9rem;
+	margin-left: 1%;
+	margin-top: 8%;
 }
 
 #image8 {
 	position: absolute;
-	margin-left: 10rem;
-	margin-top: 2rem;
+	margin-left: 10%;
+	margin-top: 15%;
 }
 
 #image9 {
 	position: absolute;
-	margin-left: 70rem;
-	margin-top: 1rem;
+	margin-left: 70%;
+	margin-top: 1%;
 }
 
 #image10 {
 	position: absolute;
-	margin-left: 64rem;
-	margin-top: 4rem;
+	margin-left: 64%;
+	margin-top: 4%;
 }
 
 #image11 {
 	position: absolute;
-	margin-left: 20rem;
-	margin-top: 38rem;
+	margin-left: 20%;
+	margin-top: 38%;
 }
 
 #image12 {
 	position: absolute;
-	margin-left: 40rem;
-	margin-top: 11rem;
+	margin-left: 40%;
+	margin-top: 11%;
 }
 
 #image13 {
 	position: absolute;
-	margin-left: 40rem;
-	margin-top: 2rem;
+	margin-left: 40%;
+	margin-top: 2%;
 }
 
 #image14 {
 	position: absolute;
-	margin-left: 72rem;
-	margin-top: 14rem;
+	margin-left: 72%;
+	margin-top: 14%;
 }
 
 #image15 {
 	position: absolute;
-	margin-left: 70rem;
-	margin-top: 20rem;
+	margin-left: 70%;
+	margin-top: 20%;
 }
 
 #image16 {
 	position: absolute;
-	margin-left: 7rem;
-	margin-top: 39rem;
+	margin-left: 7%;
+	margin-top: 39%;
 }
 
 #image17 {
 	position: absolute;
-	margin-left: 70rem;
-	margin-top: 43rem;
+	margin-left: 70%;
+	margin-top: 43%;
 }
 
 #image18 {
 	position: absolute;
-	margin-left: 50rem;
-	margin-top: 20rem;
+	margin-left: 50%;
+	margin-top: 20%;
 	-webkit-animation: yAxis 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
   animation: yAxis 2.5s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
 }
 
 #image19 {
 	position: absolute;
-	margin-left: 32rem;
-	margin-top: 8rem;
+	margin-left: 32%;
+	margin-top: 8%;
 }
 
 #image20 {
 	position: absolute;
-	margin-left: 28rem;
-	margin-top: 34rem;
+	margin-left: 28%;
+	margin-top: 34%;
 }
 
 #image21 {
 	position: absolute;
-	margin-left: 56rem;
-	margin-top: 39rem;
+	margin-left: 56%;
+	margin-top: 39%;
 }
 
 #image22 {
 	position: relative;
-	margin-left: 12rem;
-	margin-top: 40rem;
+	margin-left: 12%;
+	margin-top: 40%;
 }
 
 #image23 {
 	position: relative;
-	margin-left: 8rem;
-	margin-top: 20rem;
+	margin-left: 8%;
+	margin-top: 20r%;
 	z-index: 0;
 }
 
@@ -209,7 +209,7 @@ svg path {
 
 .fixed {
 	position: fixed;
-	margin-top: none;
+	margin-top: 0;
 }
 
 
@@ -249,8 +249,9 @@ h4 {
 iframe {
 	position: relative;
 	width: 100vw;
-	margin: 0;
-	border: 0;
+	height: 100vh;
+	margin: 50px;
+
 }
 
 
