@@ -5,6 +5,24 @@ body {
 	font-family: raleway;
 }
 
+div a {
+	position: fixed;
+	right: 40px;
+	top: 25px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: right;
+	z-index: 99999;
+}
+
+.Auto {
+	color: #ffff00;
+	position: fixed;
+	left: 40px;
+	top: 25px;
+}
+
 .circles img {
 	width: 145px;
 	padding: 2rem;
@@ -20,6 +38,8 @@ div.circles {
 
 #image1 {
 	position: absolute;
+	margin-top: 3%;
+
 }
 
 #image2 {
@@ -36,7 +56,7 @@ div.circles {
 
 #image4 {
 	position: absolute;
-	margin-left: 45%;
+	margin-left: 40%;
 	margin-top: 23%;
 }
 
@@ -55,13 +75,15 @@ div.circles {
 #image7 {
 	position: absolute;
 	margin-left: 1%;
-	margin-top: 8%;
+	margin-top: 10%;
 }
 
 #image8 {
 	position: absolute;
 	margin-left: 10%;
 	margin-top: 15%;
+	/*-webkit-animation: xAxis 0.5s infinite cubic-bezier(0.001, 0.001, 0.001, 0.001);
+  animation: xAxis 0.5s infinite cubic-bezier(0.001, 0.001, 0.001, 0.001);*/
 }
 
 #image9 {
@@ -90,7 +112,7 @@ div.circles {
 
 #image13 {
 	position: absolute;
-	margin-left: 40%;
+	margin-left: 45%;
 	margin-top: 2%;
 }
 
@@ -108,7 +130,7 @@ div.circles {
 
 #image16 {
 	position: absolute;
-	margin-left: 7%;
+	margin-left: 4%;
 	margin-top: 39%;
 }
 
@@ -152,8 +174,8 @@ div.circles {
 
 #image23 {
 	position: relative;
-	margin-left: 8%;
-	margin-top: 20r%;
+	margin-left: 13%;
+	margin-top: 2%;
 	z-index: 0;
 }
 
@@ -206,6 +228,12 @@ svg path {
 	margin-top: 100vh;
 }
 
+.Leute {
+	position: absolute;
+	color: #FFA500;
+	margin-left: 22%;
+	margin-top: -50px;
+}
 
 .fixed {
 	position: fixed;
@@ -213,18 +241,16 @@ svg path {
 }
 
 
-#Leute {
-	
-
-}
-
 #Leute2 {
 	position: absolute;
 }
 
-#Tram {
-
+video {
+	margin: 50px;
+	width: 100vw;
+	height: 100vh;
 }
+
 
 h2 {
 	position: relative;
@@ -244,21 +270,24 @@ h4 {
 }
 
 
-
-
 iframe {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
-	margin: 50px;
-
+	margin: 100px;
+	display: inline-block;
 }
+
 
 
 .demo-dot {
   -webkit-animation: xAxis 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
   animation: xAxis 2.5s infinite cubic-bezier(0.02, 0.01, 0.21, 1);
 }
+ 
+
+
+
 
 /*.demo-dot::after {
   content: '';
