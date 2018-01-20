@@ -15,10 +15,7 @@ $(window).scroll(function() {
            	// console.log('scroll:', scroll, " offsetTop: ", offsetTop)
 
            if (scroll >= offsetTop) {
-               //$(".fixed").html($(element).html());
-               //$(element).html().insertAfter( "#fixed .inner" );
-               //$(element).css('opacity',0);
-               //$(element).addClass("fixed");
+               
 
                var id = $(element).children()[0].id;
 
@@ -36,6 +33,9 @@ $(window).scroll(function() {
                else if(id == "Facts"){
                		$("#Facts").addClass("fixed");
                }
+               else if(id == "Legende"){
+               		$("#Legende").addClass("fixed");
+               }
 
            } else {
                $($(element).children()[0]).removeClass("fixed");
@@ -43,31 +43,6 @@ $(window).scroll(function() {
 		}
     );
   	
-
-
-    // if (scroll >= $(window).height()) {
-    //     $(".Ebenen").addClass("fixed");
-    // } else {
-    //     $(".Ebenen").removeClass("fixed");
-    // }
 });
 
 
-
-
-
-//    $(".Ebenen").each(
-//        function(index, element){
-//            var offsetTop = $(element).offset().top;
-
-//            if (scroll >= offsetTop) {
-//                //$(".fixed").html($(element).html());
-//                $(element).html().insertAfter( "#fixed .inner" );
-//                $(element).css('opacity',0);
-//                //$(element).addClass("fixed");
-//            } else {
-//                //$(".Ebenen").removeClass("fixed");
-//            }
-
-//        }
-//    );

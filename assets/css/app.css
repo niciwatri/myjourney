@@ -7,8 +7,8 @@ body {
 
 div a {
 	position: fixed;
-	right: 40px;
-	top: 25px;
+	right: 140px;
+	top: 20px;
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -17,11 +17,17 @@ div a {
 	line-height: 18px;
 }
 
+.arrow {
+	color: white;
+	position: fixed;
+	font-size: 120%;
+	top: 30px;
+	right: 80px;
+}
+
 .Auto {
 	color: #ffff00;
-	position: fixed;
-	left: 40px;
-	top: 25px;
+	margin-top: 150px;
 }
 
 .circles img {
@@ -40,6 +46,7 @@ div.circles {
 #image1 {
 	position: absolute;
 	margin-top: 3%;
+	margin-left: 3%;
 
 }
 
@@ -52,7 +59,7 @@ div.circles {
 #image3 {
 	position: absolute;
 	margin-left: 34%;
-	margin-top: 2%;
+	margin-top: -1%;
 }
 
 #image4 {
@@ -69,7 +76,7 @@ div.circles {
 
 #image6 {
 	position: absolute;
-	margin-left: 80%;
+	margin-left: 88%;
 	margin-top: 5%;
 }
 
@@ -101,14 +108,14 @@ div.circles {
 
 #image11 {
 	position: absolute;
-	margin-left: 20%;
-	margin-top: 38%;
+	margin-left: 35%;
+	margin-top: 32%;
 }
 
 #image12 {
 	position: absolute;
 	margin-left: 40%;
-	margin-top: 11%;
+	margin-top: 15%;
 }
 
 #image13 {
@@ -119,14 +126,14 @@ div.circles {
 
 #image14 {
 	position: absolute;
-	margin-left: 72%;
+	margin-left: 78%;
 	margin-top: 14%;
 }
 
 #image15 {
 	position: absolute;
 	margin-left: 70%;
-	margin-top: 20%;
+	margin-top: 17%;
 }
 
 #image16 {
@@ -152,13 +159,13 @@ div.circles {
 #image19 {
 	position: absolute;
 	margin-left: 32%;
-	margin-top: 8%;
+	margin-top: 13%;
 }
 
 #image20 {
 	position: absolute;
-	margin-left: 28%;
-	margin-top: 34%;
+	margin-left: 45%;
+	margin-top: 45%;
 }
 
 #image21 {
@@ -170,13 +177,13 @@ div.circles {
 #image22 {
 	position: relative;
 	margin-left: 12%;
-	margin-top: 40%;
+	margin-top: 46%;
 }
 
 #image23 {
 	position: relative;
-	margin-left: 13%;
-	margin-top: 2%;
+	margin-left: 20%;
+	margin-top: 0%;
 	z-index: 0;
 }
 
@@ -213,12 +220,6 @@ div.circles {
 	
 }
 
-svg path {
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: 0.2s;
-  /*fill: */
-}
 
 .Ebenen, .tobefixed {
 	position: relative;
@@ -230,10 +231,16 @@ svg path {
 }
 
 .Leute {
-	position: absolute;
 	color: #FFA500;
-	margin-left: 22%;
-	margin-top: -50px;
+}
+
+.Tram {
+	color: #E20613;
+}
+
+#Tram {
+	width: 120%;
+	margin-left: -100px;
 }
 
 .fixed {
@@ -243,6 +250,13 @@ svg path {
 	top:0;
 }
 
+.Facts {
+	color: white;
+}
+
+.Video {
+	color: white;
+}
 
 #Leute2 {
 	position: absolute;
@@ -253,13 +267,26 @@ svg path {
 	margin-top: 4%;
 }
 
+#Legende {
+	background-color: black;
+	color: white;
+}
+.Autolegende {
+	width: 1.75%;
+}
+
+.Leutelegende {
+	width: 3%;
+}
+
+.Tramlegende {
+	width: 3%;
+}
+
 video {
 	margin: 5%;
 	margin-left: 8%;
 	height: 85%;
-/*	display: flex;
- 	align-items: center;
- 	justify-content: center;*/
 }
 
 
@@ -304,7 +331,19 @@ iframe {
 }
  
 
+.impressum {
+	color: white;
+	margin-top: 50px;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
 
+.beschrieb {
+	color: white;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 10rem;
+}
 
 
 /*.demo-dot::after {
