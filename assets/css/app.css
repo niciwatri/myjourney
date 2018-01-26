@@ -16,7 +16,14 @@ div a {
 	z-index: 99999;
 	line-height: 18px;
 	letter-spacing: 1px;
+}
 
+div a:hover {
+	color: gray;
+}
+
+ul {
+	margin-top: 20px;
 }
 
 .arrow {
