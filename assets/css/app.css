@@ -30,7 +30,7 @@ ul {
 .arrow {
 	color: white;
 	position: fixed;
-	font-size: 120%;
+	font-size: 155%;
 	top: 30px;
 	right: 80px;
 }
@@ -290,15 +290,25 @@ div.circles {
 
 .Autolegende {
 	width: 1.75%;
-	padding-bottom: 3px;
+	padding-bottom: 12px;
+}
+
+.Privat {
+	margin-bottom: 5px;
+}
+
+.Privat2 {
+	margin-bottom: 10px;
 }
 
 .Leutelegende {
-	width: 3%;
+	width: 3%;	
+	padding-bottom: 8px;
 }
 
 .Tramlegende {
 	width: 4%;
+	padding-bottom: 8px;
 }
 
 video {
@@ -363,19 +373,21 @@ iframe {
 .Titel {
 	color: white;
 	margin-top: 100px;
-	margin-left: 50px;
-	font-size: 10rem;
+	margin-left: 85px;
+	font-size: 144px;
 	font-weight: bold;
 	padding-bottom: 40px;
 }
 
 .beschrieb {
 	color: white;
-	font-size: 3rem;
+	font-size: 44px;
 	margin-right: 50px;
-	margin-top: -50px;
-	line-height: 110%;
+	margin-top: -15px;
+	margin-left: 97px;
+	line-height: 112%;
 	width: 60%;
+	letter-spacing: 0.3px;
 }
 
 /*.demo-dot::after {
