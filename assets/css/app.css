@@ -7,8 +7,8 @@ body {
 
 div a {
 	position: fixed;
-	right: 110px;
-	top: 20px;
+	right: 80px;
+	top: 25px;
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
@@ -16,6 +16,7 @@ div a {
 	z-index: 99999;
 	line-height: 18px;
 	letter-spacing: 1px;
+	font-size: 18px;
 }
 
 div a:hover {
@@ -289,6 +290,7 @@ div.circles {
 
 .Autolegende {
 	width: 1.75%;
+	padding-bottom: 3px;
 }
 
 .Leutelegende {
